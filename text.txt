@@ -1,0 +1,29 @@
+**Alex:** Dr. Bennett, thanks for making time today! I saw Lakeview just launched its ‘Student Success 2030’ initiative – ambitious goals around retention and engagement. How’s the rollout going?  
+**Sarah:** Thanks, Alex. It’s exciting but challenging. We’re stretched thin supporting 22,000 students with current staff.  
+**Alex:** That’s exactly why I wanted to connect. Many universities like yours use CustomGPT to scale student support *without* hiring 50 new advisors. Before we dive in—any key priorities you want to ensure we cover today?  
+**Sarah:** Efficiency and student satisfaction are top of mind.  
+
+**Alex:** Understood. Let’s dig deeper: What’s the *biggest bottleneck* your team faces in student support?  
+**Sarah:** Admissions gets 500+ daily emails asking about deadlines or requirements. Our advisors spend 70% of time on routine queries.  
+**Alex:** How are you handling after-hours student inquiries?  
+**Sarah:** After-hours? Students get frustrated waiting.  
+**Alex:** That’s a huge productivity drain. When advisors handle repetitive questions, what’s the *opportunity cost*?  
+**Sarah:** They can’t focus on at-risk students or strategic projects. Burnout is real.  
+
+**Alex:** CustomGPT solves this by deploying secure, university-specific AI agents. Imagine a chatbot that answers: ‘What’s the FAFSA deadline?’, ‘How do I declare a major?’, or ‘Where’s the health center?’ using *your* handbooks and policies. Key benefits: 30-50% reduction in routine queries, 24/7 support in 100+ languages, and seamless integration with your portal.  
+**Sarah:** How does it stay accurate with our specific policies?  
+
+**Alex:** [Shares screen] Watch this. I’ve pre-loaded Lakeview’s 2024 admissions FAQ and catalog. Let’s ask: ‘Can I switch from Biology to Computer Science after freshman year?’ [AI responds with requirements and form links]  
+**Sarah:** That’s spot-on! How quickly can it update if policies change?  
+**Alex:** Instantly. Upload a new doc, and it’s live in minutes. [Shows dashboard] You can track queries, satisfaction scores, and resource gaps.  
+
+**Sarah:** Our IT team worries about data privacy.  
+**Alex:** CustomGPT is FERPA/COPPA compliant. Data is encrypted, never used for training, and you control access. Harvard’s IT approved this for their admissions GPT.  
+**Sarah:** Budget?  
+**Alex:** A fraction of hiring new staff. Typical ROI is 3-6 months. We offer education discounts and a 4-week pilot for $0 risk.  
+
+**Alex:** Based on what you’ve seen, how could CustomGPT impact student satisfaction and staff workload?  
+**Sarah:** It could be a game-changer for admissions and after-hours support.  
+**Alex:** Perfect. I recommend a 4-week pilot focused on Admissions queries, with a kickoff call including IT and Admissions leads—zero cost, we handle setup. Can we lock in a 30-min planning session Thursday?  
+**Sarah:** Yes—email me times. Let’s move forward.  
+**Alex:** Excellent! I’ll send a calendar invite and prep materials. Thanks for your time, Dr. Bennett!

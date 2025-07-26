@@ -1,0 +1,121 @@
+You are a Product Manager. Based on the following available APIs and this sales call transcript, generate a detailed PRD that clearly outlines the features discussed.
+🔐 Authentication
+All endpoints require Bearer Token authentication. Use header:
+
+makefile
+Copy
+Edit
+Authorization: Bearer <jwt_token>
+🤖 AGENTS API
+GET /api/v1/projects
+List all agents. Supports filters like name, order, page.
+
+POST /api/v1/projects
+Create a new agent using project_name, optional sitemap/file upload.
+
+GET /api/v1/projects/:projectId
+Fetch agent details by ID.
+
+POST /api/v1/projects/:projectId
+Update an existing agent’s properties.
+
+DELETE /api/v1/projects/:projectId
+Delete an agent by ID.
+
+POST /api/v1/projects/:projectId/replicate
+Clone an existing agent with all its settings.
+
+GET /api/v1/projects/:projectId/stats
+Get usage stats and metrics for the agent.
+
+📄 PAGES API
+GET /api/v1/projects/:projectId/pages
+List all indexed pages for an agent.
+
+DELETE /api/v1/projects/:projectId/pages/:pageId
+Delete a specific page from an agent.
+
+POST /api/v1/projects/:projectId/pages/:pageId/reindex
+Refresh indexing of a specific page.
+
+GET /api/v1/preview/:id
+Preview file from citation by file ID.
+
+👤 USERS API
+GET /api/v1/user
+Get current user’s profile.
+
+POST /api/v1/user
+Update user’s name or profile photo.
+
+⚙️ AGENT SETTINGS
+GET /api/v1/projects/:projectId/settings
+Fetch chatbot or agent-level settings like persona, prompts, colors, etc.
+
+POST /api/v1/projects/:projectId/settings
+Update agent’s UI settings and chatbot persona.
+
+💬 CONVERSATIONS API
+POST /api/v1/projects/:projectId/chat/completions
+Send a message to an agent using LLM (supports messages, model, lang, external_id).
+
+GET /api/v1/projects/:projectId/conversations
+List all conversations.
+
+POST /api/v1/projects/:projectId/conversations
+Create a new conversation.
+
+PUT /api/v1/projects/:projectId/conversations/:sessionId
+Update conversation name.
+
+DELETE /api/v1/projects/:projectId/conversations/:sessionId
+Delete a conversation.
+
+GET /api/v1/projects/:projectId/conversations/:sessionId/messages
+Retrieve messages of a conversation.
+
+POST /api/v1/projects/:projectId/conversations/:sessionId/messages
+Send a prompt to a conversation (can use custom persona).
+
+🧠 MESSAGES & REACTIONS
+GET /api/v1/projects/:projectId/conversations/:sessionId/messages/:promptId
+Get message by ID.
+
+PUT /api/v1/projects/:projectId/conversations/:sessionId/messages/:promptId/feedback
+React to message with "liked" or "disliked".
+
+📚 SOURCES API
+GET /api/v1/projects/:projectId/sources
+List all data sources (sitemaps or uploaded files).
+
+POST /api/v1/projects/:projectId/sources
+Add new data source.
+
+PUT /api/v1/projects/:projectId/sources/:sourceId
+Update sync settings for a data source.
+
+DELETE /api/v1/projects/:projectId/sources/:sourceId
+Delete a source.
+
+PUT /api/v1/projects/:projectId/sources/:sourceId/instant-sync
+Trigger instant data sync for sitemap.
+
+🧾 PAGE METADATA
+GET /api/v1/projects/:projectId/pages/:pageId/metadata
+Get page metadata.
+
+PUT /api/v1/projects/:projectId/pages/:pageId/metadata
+Update metadata like title, url, description.
+
+📊 REPORTS
+GET /api/v1/projects/:projectId/reports/traffic
+User source analytics (geo, browser, referral).
+
+GET /api/v1/projects/:projectId/reports/queries
+Query stats (total, success/fail rate).
+
+GET /api/v1/projects/:projectId/reports/conversations
+Conversation metrics (avg length, total).
+
+GET /api/v1/projects/:projectId/reports/analysis
+Graph data (queries/conversations over time).
